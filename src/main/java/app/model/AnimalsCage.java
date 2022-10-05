@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
 public class AnimalsCage {
 
     @Autowired
-    @Qualifier("Dog")
+    @Qualifier("dogBean")
     private Animal animal;
 
     @Autowired
